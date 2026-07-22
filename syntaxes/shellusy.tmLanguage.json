@@ -1,0 +1,40 @@
+{
+    "scopeName": "source.shellusy",
+
+    "patterns":[
+
+        {
+            "include":"#keywords"
+        }
+
+    ],
+
+
+    "repository":{
+
+
+        "keywords":{
+
+            "patterns":[
+
+                {
+                    "name":"keyword.control.shellusy",
+
+                    "match":
+                    "\\b(engine|version|project|type|folders|created)\\b"
+                },
+
+
+                {
+                    "name":"string.shellusy",
+
+                    "match":
+                    "\".*?\""
+                }
+
+            ]
+
+        }
+
+    }
+}

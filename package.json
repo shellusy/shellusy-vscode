@@ -1,0 +1,62 @@
+{
+    "name": "shellusy",
+    "displayName": "Shellusy Project",
+    "description": "Official Shellusy workspace support",
+    "version": "0.1.0",
+
+    "publisher": "shellusy",
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shellusy/shellusy-vscode"
+    },
+
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+
+    "categories": [
+        "Programming Languages"
+    ],
+
+    "contributes": {
+
+        "languages": [
+            {
+                "id": "shellusy",
+                "aliases": [
+                    "Shellusy Project"
+                ],
+                "extensions": [
+                    ".sproj"
+                ]
+            }
+        ],
+
+
+        "iconThemes": [
+
+            {
+                "id": "shellusy-icons",
+                "label": "Shellusy Icons",
+                "path": "./icons/icons.json"
+            }
+
+        ],
+
+
+
+
+        "grammars": [
+
+            {
+                "language": "shellusy",
+                "scopeName": "source.shellusy",
+                "path":
+                "./syntaxes/shellusy.tmLanguage.json"
+            }
+
+        ]
+
+    }
+}

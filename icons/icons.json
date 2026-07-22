@@ -1,0 +1,28 @@
+{
+    "iconDefinitions": {
+
+        "_shellusy": {
+            "iconPath": "./shellusy-file.svg"
+        },
+
+        "_folder": {
+            "iconPath": "./shellusy-folder.svg"
+        }
+
+    },
+
+
+    "fileExtensions": {
+
+        "sproj": "_shellusy"
+
+    },
+
+
+    "folder": {
+
+        "shellusy": "_folder"
+
+    }
+
+}
