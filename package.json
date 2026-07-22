@@ -21,17 +21,28 @@
 
     "contributes": {
 
-        "languages": [
-            {
-                "id": "shellusy",
-                "aliases": [
-                    "Shellusy Project"
-                ],
-                "extensions": [
-                    ".sproj"
-                ]
-            }
-        ],
+    "languages": [
+        {
+            "id": "shellusy",
+            "aliases": [
+                "Shellusy Project"
+            ],
+            "extensions": [
+                ".sproj"
+            ]
+        }
+    ],
+
+
+    "resourceLabelFormatters": [],
+
+
+    "customEditors": [],
+
+
+    "configurationDefaults": {},
+
+
 
 
         "iconThemes": [
